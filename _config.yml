@@ -1,0 +1,36 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://JyunYiShih.github.io/
+author: Fábio Madeira
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: "/"
+title: Junyi Shi's Personal Page
+name: Junyi Shi 
+email: junyishih@gmail.com
+email_full: mailto:junyishih@gmail.com
+website: JunyiShih.github.io
+website_full: https://JunYiShih.github.io/
+github: JunYiShih
+twitter: 
+tel: 
+tel_full: 
+google_maps: 
+address:
+  street: 
+  postcode: Graduate
+  city: HIT
+  country: China
+google_analytics: 
+
+# needed for travis-ci build
+exclude: [vendor]
